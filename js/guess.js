@@ -14,6 +14,9 @@
 			var isCorrect = $.inArray(answer, correctAnswers) > -1;
 			if(isCorrect) {
 				$(this).parent().find(".result").slideToggle();
+				$(this).find('.error').fadeOut();
+			} else {
+				$(this).find('.error').fadeIn();
 			}
 			return false;
 		});
