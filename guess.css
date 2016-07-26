@@ -1,0 +1,11 @@
+.result {
+	margin: 5% 0;
+}
+
+.hint p {
+	display: none;
+}
+
+.result {
+  display: none;
+}
