@@ -17,6 +17,10 @@
 			}
 			return false;
 		});
+
+		var step = window.location.hash;
+		$(step).fadeIn();
+
 	});
 
 	$(window).load(function(){
